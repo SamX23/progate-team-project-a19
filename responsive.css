@@ -1,15 +1,5 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .top-wrapper {
-    text-align: left;
-    width: auto;
-    height: auto;
-  }
-
-  .top-wrapper h1 {
-    font-size: 22px;
-  }
-
   .heading h2 {
     font-size: 10px;
   }
@@ -26,16 +16,35 @@
   width: 150px;
   float: left;
   }
+
+  .main {
+    height: 300px;
+    margin-top: 105px;
+  }
+  
+  .animasi {
+    height: 300px;
+    width: 200px;
+  }
+  
+  .main-top {
+    margin-left: 10px;
+  }
+  
+  .main-top h1 {
+    font-size: 30px;
+    margin-top: 85px;
+  }
+  
+  .main-top h2 {
+    font-size: 25px;
+    margin-top: 50px;
+  }
+
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .top-wrapper {
-    text-align: left;
-    width: auto;
-    height: auto;
-  }
-
   .header-list{
     display:none;
   }
@@ -44,16 +53,37 @@
     display:block;
   }
 
-  .top-wrapper h1 {
-    font-size: 10px;
-  }
-
-  .top-wrapper p {
-    font-size: 8px;
-  }
-
   .logo {
   width: 100px;
   float: left;
+  }
+
+  .main {
+    height: 160px;
+    margin-top: 105px;
+  }
+  
+  .animasi {
+    height: 160px;
+    width: 90px;
+  }
+  
+  .main-top {
+    margin-left: 3px;
+  }
+
+  .main-top {
+    margin-left: 3px;
+  }
+  
+  .main-top h1 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 45px;
+  }
+  
+  .main-top h2 {
+    font-size: 15px;
+    margin-top: 20px;
   }
 }
