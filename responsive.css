@@ -1,0 +1,59 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper {
+    text-align: left;
+    width: auto;
+    height: auto;
+  }
+
+  .top-wrapper h1 {
+    font-size: 22px;
+  }
+
+  .heading h2 {
+    font-size: 10px;
+  }
+
+  .header-list li {
+  list-style: none;
+  float: left;
+  color: #000;
+  padding: 33px 20px;
+  font-size:12;
+  }
+
+  .logo {
+  width: 150px;
+  float: left;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .top-wrapper {
+    text-align: left;
+    width: auto;
+    height: auto;
+  }
+
+  .header-list{
+    display:none;
+  }
+
+  .menu-icon{
+    display:block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 10px;
+  }
+
+  .top-wrapper p {
+    font-size: 8px;
+  }
+
+  .logo {
+  width: 100px;
+  float: left;
+  }
+}
