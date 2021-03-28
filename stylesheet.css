@@ -18,6 +18,7 @@ a {
   margin: 0 auto;
 }
 
+
 /* Header : Anisa */
 .top-wrapper {
   padding: 180px 0 100px 0;
@@ -87,13 +88,18 @@ header {
   height: 400px;
   width: 100%;
   background-size: cover;
-  margin-top: 0;
+  margin-top: 105px;
   text-align: left;
 }
 
 .animasi {
   height: 400px;
   width: 270px;
+}
+
+.animasi img {
+  width:100%;
+  height:100%;
 }
 
 .main-animasi {
@@ -144,4 +150,50 @@ html {
     color-stop(0.72, rgb(62, 96, 138)),
     color-stop(0.86, rgb(44, 52, 77))
   );
+}
+
+
+
+/* footer */
+
+footer {
+   width:100%;
+   height:80px;
+   background-color:#332f29;
+   padding: 10px 0;
+}
+
+
+.footer-logo {
+    width:10%;
+    float:left;
+}
+
+.footer-logo img {
+    width:100%;
+    height:auto;	
+}
+
+.footer-list {
+    width:30%;
+    float:right;
+    line-height:1px;
+}
+
+.footer-list a {
+    color:#ccc;
+}
+
+.footer-text {
+   color:#ccc;
+   font-size:10pt;
+}
+
+
+.footer-contact {
+    width:60%;
+    float:left;
+    font-size:10pt;
+    margin: 8px 0;
+    color:#ccc;
 }
