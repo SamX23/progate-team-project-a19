@@ -70,7 +70,7 @@
   }
 
   .menu-icon {
-    display: inline-block;
+    display: inline-block !important ;
   }
 
   .top-wrapper h1 {
